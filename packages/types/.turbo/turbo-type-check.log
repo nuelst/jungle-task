@@ -1,0 +1,4 @@
+
+> @jungle-gaming/types@1.0.0 type-check /home/manuel/www/test-jungle-gaming/packages/types
+> tsc --noEmit
+

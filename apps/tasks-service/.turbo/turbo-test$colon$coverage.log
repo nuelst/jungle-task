@@ -1,0 +1,37 @@
+
+> @jungle-gaming/tasks-service@1.0.0 test:coverage /home/manuel/www/test-jungle-gaming/apps/tasks-service
+> vitest run --coverage
+
+[?25l
+[1m[46m RUN [49m[22m [36mv3.2.4 [39m[90m/home/manuel/www/test-jungle-gaming/apps/tasks-service[39m
+      [2mCoverage enabled with [22m[33mv8[39m
+
+[?2026h
+[2m Test Files [22m[1m[32m0 passed[39m[22m[90m (1)[39m
+[2m      Tests [22m[1m[32m0 passed[39m[22m[90m (0)[39m
+[2m   Start at [22m21:13:19
+[2m   Duration [22m905ms
+[?2026l[?2026h[K[1A[K[1A[K[1A[K[1A[K[1A[K
+[1m[33m ❯ [39m[22msrc/tasks/tasks.service.spec.ts[2m [queued][22m
+
+[2m Test Files [22m[1m[32m0 passed[39m[22m[90m (1)[39m
+[2m      Tests [22m[1m[32m0 passed[39m[22m[90m (0)[39m
+[2m   Start at [22m21:13:19
+[2m   Duration [22m1.21s
+[?2026l[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K
+[31m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[39m[1m[41m Failed Suites 1 [49m[22m[31m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[39m
+
+[41m[1m FAIL [22m[49m src/tasks/tasks.service.spec.ts[2m [ src/tasks/tasks.service.spec.ts ][22m
+[31m[1mError[22m: Cannot find module '/home/manuel/www/test-jungle-gaming/apps/tasks-service/src/test/setup.ts'[39m
+[31m[1mCaused by: Error[22m: Failed to load url /home/manuel/www/test-jungle-gaming/apps/tasks-service/src/test/setup.ts (resolved id: /home/manuel/www/test-jungle-gaming/apps/tasks-service/src/test/setup.ts). Does the file exist?[39m
+[90m [2m❯[22m loadAndTransform ../../node_modules/.pnpm/vite@6.3.6_@types+node@20.19.15_jiti@1.21.7_terser@5.44.0_tsx@4.20.5_yaml@2.8.1/node_modules/vite/dist/node/chunks/dep-Bu492Fnd.js:[2m35728:17[22m[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯[22m[39m
+
+
+[2m Test Files [22m [1m[31m1 failed[39m[22m[90m (1)[39m
+[2m      Tests [22m [2mno tests[22m
+[2m   Start at [22m 21:13:18
+[2m   Duration [22m 1.83s[2m (transform 43ms, setup 0ms, collect 0ms, tests 0ms, environment 1ms, prepare 366ms)[22m
+
+[?25h[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m

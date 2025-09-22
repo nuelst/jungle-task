@@ -1,0 +1,64 @@
+
+> @jungle-gaming/utils@1.0.0 test:run /home/manuel/www/test-jungle-gaming/packages/utils
+> vitest run
+
+[?25l
+[1m[46m RUN [49m[22m [36mv3.2.4 [39m[90m/home/manuel/www/test-jungle-gaming/packages/utils[39m
+
+[?2026h
+[2m Test Files [22m[1m[32m0 passed[39m[22m[90m (1)[39m
+[2m      Tests [22m[1m[32m0 passed[39m[22m[90m (0)[39m
+[2m   Start at [22m22:40:19
+[2m   Duration [22m909ms
+[?2026l[?2026h[K[1A[K[1A[K[1A[K[1A[K[1A[K
+[2m Test Files [22m[1m[32m0 passed[39m[22m[90m (1)[39m
+[2m      Tests [22m[1m[32m0 passed[39m[22m[90m (0)[39m
+[2m   Start at [22m22:40:19
+[2m   Duration [22m1.92s
+[?2026l[?2026h[K[1A[K[1A[K[1A[K[1A[K[1A[K
+[1m[33m ❯ [39m[22msrc/index.spec.ts[2m 0/32[22m
+
+[2m Test Files [22m[1m[32m0 passed[39m[22m[90m (1)[39m
+[2m      Tests [22m[1m[32m0 passed[39m[22m[90m (32)[39m
+[2m   Start at [22m22:40:19
+[2m   Duration [22m2.36s
+[?2026l[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K [32m✓[39m src/index.spec.ts [2m([22m[2m32 tests[22m[2m)[22m[32m 32[2mms[22m[39m
+   [32m✓[39m PasswordUtils[2m > [22mhash[2m > [22mshould hash password with correct salt rounds[32m 8[2mms[22m[39m
+   [32m✓[39m PasswordUtils[2m > [22mcompare[2m > [22mshould return true for matching password[32m 1[2mms[22m[39m
+   [32m✓[39m PasswordUtils[2m > [22mcompare[2m > [22mshould return false for non-matching password[32m 1[2mms[22m[39m
+   [32m✓[39m JwtUtils[2m > [22mgenerateAccessToken[2m > [22mshould generate access token with correct payload and options[32m 2[2mms[22m[39m
+   [32m✓[39m JwtUtils[2m > [22mgenerateRefreshToken[2m > [22mshould generate refresh token with correct payload and options[32m 1[2mms[22m[39m
+   [32m✓[39m JwtUtils[2m > [22mverifyAccessToken[2m > [22mshould verify access token with correct secret[32m 1[2mms[22m[39m
+   [32m✓[39m JwtUtils[2m > [22mverifyRefreshToken[2m > [22mshould verify refresh token with correct secret[32m 1[2mms[22m[39m
+   [32m✓[39m ValidationUtils[2m > [22misValidEmail[2m > [22mshould return true for valid email[32m 1[2mms[22m[39m
+   [32m✓[39m ValidationUtils[2m > [22misValidEmail[2m > [22mshould return false for invalid email[32m 1[2mms[22m[39m
+   [32m✓[39m ValidationUtils[2m > [22misValidPassword[2m > [22mshould return true for valid password[32m 1[2mms[22m[39m
+   [32m✓[39m ValidationUtils[2m > [22misValidPassword[2m > [22mshould return false for invalid password[32m 0[2mms[22m[39m
+   [32m✓[39m ValidationUtils[2m > [22misValidUsername[2m > [22mshould return true for valid username[32m 0[2mms[22m[39m
+   [32m✓[39m ValidationUtils[2m > [22misValidUsername[2m > [22mshould return false for invalid username[32m 0[2mms[22m[39m
+   [32m✓[39m DateUtils[2m > [22misDateInFuture[2m > [22mshould return true for future date[32m 1[2mms[22m[39m
+   [32m✓[39m DateUtils[2m > [22misDateInFuture[2m > [22mshould return false for past date[32m 0[2mms[22m[39m
+   [32m✓[39m DateUtils[2m > [22maddDays[2m > [22mshould add days to date correctly[32m 1[2mms[22m[39m
+   [32m✓[39m DateUtils[2m > [22maddDays[2m > [22mshould subtract days when negative number provided[32m 0[2mms[22m[39m
+   [32m✓[39m DateUtils[2m > [22mformatDate[2m > [22mshould format date as YYYY-MM-DD[32m 1[2mms[22m[39m
+   [32m✓[39m DateUtils[2m > [22mformatDateTime[2m > [22mshould format date as ISO string[32m 0[2mms[22m[39m
+   [32m✓[39m PaginationUtils[2m > [22mcalculateOffset[2m > [22mshould calculate offset correctly[32m 0[2mms[22m[39m
+   [32m✓[39m PaginationUtils[2m > [22mcalculateTotalPages[2m > [22mshould calculate total pages correctly[32m 0[2mms[22m[39m
+   [32m✓[39m PaginationUtils[2m > [22mvalidatePagination[2m > [22mshould return valid pagination parameters[32m 0[2mms[22m[39m
+   [32m✓[39m PaginationUtils[2m > [22mvalidatePagination[2m > [22mshould correct invalid page number[32m 1[2mms[22m[39m
+   [32m✓[39m PaginationUtils[2m > [22mvalidatePagination[2m > [22mshould correct invalid size[32m 0[2mms[22m[39m
+   [32m✓[39m StringUtils[2m > [22mslugify[2m > [22mshould convert text to slug[32m 1[2mms[22m[39m
+   [32m✓[39m StringUtils[2m > [22mslugify[2m > [22mshould handle edge cases[32m 0[2mms[22m[39m
+   [32m✓[39m StringUtils[2m > [22mtruncate[2m > [22mshould truncate long text[32m 0[2mms[22m[39m
+   [32m✓[39m StringUtils[2m > [22mtruncate[2m > [22mshould return original text if shorter than max length[32m 0[2mms[22m[39m
+   [32m✓[39m StringUtils[2m > [22mtruncate[2m > [22mshould handle exact length[32m 0[2mms[22m[39m
+   [32m✓[39m StringUtils[2m > [22mcapitalize[2m > [22mshould capitalize first letter and lowercase rest[32m 0[2mms[22m[39m
+   [32m✓[39m StringUtils[2m > [22mcapitalize[2m > [22mshould handle single character[32m 0[2mms[22m[39m
+   [32m✓[39m StringUtils[2m > [22mcapitalize[2m > [22mshould handle empty string[32m 0[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m1 passed[39m[22m[90m (1)[39m
+[2m      Tests [22m [1m[32m32 passed[39m[22m[90m (32)[39m
+[2m   Start at [22m 22:40:19
+[2m   Duration [22m 2.55s[2m (transform 399ms, setup 0ms, collect 417ms, tests 32ms, environment 0ms, prepare 324ms)[22m
+
+[?25h

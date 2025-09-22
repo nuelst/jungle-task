@@ -1,0 +1,18 @@
+
+> @jungle-gaming/notifications-service@1.0.0 lint /home/manuel/www/test-jungle-gaming/apps/notifications-service
+> eslint "{src,apps,libs,test}/**/*.ts" --fix
+
+
+Oops! Something went wrong! :(
+
+ESLint: 8.57.1
+
+ESLint couldn't find a configuration file. To set up a configuration file for this project, please run:
+
+    npm init @eslint/config
+
+ESLint looked for configuration files in /home/manuel/www/test-jungle-gaming/apps/notifications-service/src and its ancestors. If it found none, it then looked in your home directory.
+
+If you think you already have a configuration file or if you need more help, please stop by the ESLint Discord server: https://eslint.org/chat
+
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 2.[39m

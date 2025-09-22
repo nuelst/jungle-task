@@ -1,0 +1,28 @@
+{
+  "name": "@jungle-gaming/utils",
+  "version": "1.0.0",
+  "description": "Shared utilities for Jungle Gaming Task Management",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist",
+    "type-check": "tsc --noEmit",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "test:coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "@jungle-gaming/types": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@vitest/coverage-v8": "^3.2.4",
+    "bcrypt": "^6.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "typescript": "^5.3.0",
+    "vitest": "^3.2.4"
+  }
+}

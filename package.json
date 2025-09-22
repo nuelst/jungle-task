@@ -1,0 +1,45 @@
+{
+  "name": "jungle-gaming-task-management",
+  "version": "1.0.0",
+  "description": "Sistema de Gestão de Tarefas Colaborativo - Desafio Full-stack Júnior",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "dev:web": "cd apps/web && npm run dev",
+    "lint": "turbo run lint",
+    "type-check": "turbo run type-check",
+    "clean": "turbo run clean",
+    "test": "turbo run test",
+    "test:run": "turbo run test:run",
+    "test:coverage": "turbo run test:coverage",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui",
+    "test:e2e:headed": "playwright test --headed",
+    "test:e2e:debug": "playwright test --debug",
+    "test:e2e:report": "playwright show-report",
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down",
+    "docker:build": "docker-compose build",
+    "db:migrate": "turbo run db:migrate",
+    "db:seed": "turbo run db:seed"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^11.0.0",
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^20.10.0",
+    "@vitest/ui": "^3.2.4",
+    "turbo": "^1.11.0",
+    "typescript": "^5.3.0",
+    "vitest": "^3.2.4"
+  },
+  "packageManager": "pnpm@10.15.0",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "dependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "bcryptjs": "^3.0.2"
+  }
+}

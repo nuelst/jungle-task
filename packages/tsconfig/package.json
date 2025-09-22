@@ -1,0 +1,6 @@
+{
+  "name": "@jungle-gaming/tsconfig",
+  "version": "1.0.0",
+  "description": "TypeScript configuration for Jungle Gaming Task Management",
+  "main": "base.json"
+}

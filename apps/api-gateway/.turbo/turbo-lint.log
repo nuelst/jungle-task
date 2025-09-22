@@ -1,0 +1,8 @@
+
+> @jungle-gaming/api-gateway@1.0.0 lint /home/manuel/www/test-jungle-gaming/apps/api-gateway
+> eslint "{src,apps,libs,test}/**/*.ts" --fix --max-warnings 50
+
+(node:2129657) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///home/manuel/www/test-jungle-gaming/apps/api-gateway/eslint.config.js?mtime=1758198012112 is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /home/manuel/www/test-jungle-gaming/apps/api-gateway/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)

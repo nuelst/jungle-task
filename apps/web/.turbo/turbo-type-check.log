@@ -1,0 +1,131 @@
+
+> @jungle-gaming/web@1.0.0 type-check /home/manuel/www/test-jungle-gaming/apps/web
+> tsc --noEmit
+
+[96msrc/components/line-chart-1.tsx[0m:[93m3[0m:[93m1[0m - [91merror[0m[90m TS6133: [0m'React' is declared but its value is never read.
+
+[7m3[0m import React from 'react';
+[7m [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/line-chart-1.tsx[0m:[93m6[0m:[93m57[0m - [91merror[0m[90m TS2305: [0mModule '"@/components/ui/card"' has no exported member 'CardToolbar'.
+
+[7m6[0m import { Card, CardContent, CardHeader, CardTitle, type CardToolbar } from '@/components/ui/card';
+[7m [0m [91m                                                        ~~~~~~~~~~~[0m
+
+[96msrc/components/line-chart-1.tsx[0m:[93m77[0m:[93m21[0m - [91merror[0m[90m TS2322: [0mType '"destructive" | "success"' is not assignable to type '"default" | "destructive" | "outline" | "secondary" | null | undefined'.
+  Type '"success"' is not assignable to type '"default" | "destructive" | "outline" | "secondary" | null | undefined'.
+
+[7m77[0m                     variant={
+[7m  [0m [91m                    ~~~~~~~[0m
+
+  [96msrc/components/ui/badge.tsx[0m:[93m10[0m:[93m7[0m
+    [7m 10[0m       variant: {
+    [7m   [0m [96m      ~~~~~~~~~~[0m
+    [7m 11[0m         default:
+    [7m   [0m [96m~~~~~~~~~~~~~~~~[0m
+    [7m...[0m 
+    [7m 17[0m         outline: "text-foreground",
+    [7m   [0m [96m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    [7m 18[0m       },
+    [7m   [0m [96m~~~~~~~[0m
+    The expected type comes from property 'variant' which is declared here on type 'IntrinsicAttributes & BadgeProps'
+
+[96msrc/components/line-chart-1.tsx[0m:[93m109[0m:[93m12[0m - [91merror[0m[90m TS1361: [0m'CardToolbar' cannot be used as a value because it was imported using 'import type'.
+
+[7m109[0m           <CardToolbar>
+[7m   [0m [91m           ~~~~~~~~~~~[0m
+
+  [96msrc/components/line-chart-1.tsx[0m:[93m6[0m:[93m52[0m
+    [7m6[0m import { Card, CardContent, CardHeader, CardTitle, type CardToolbar } from '@/components/ui/card';
+    [7m [0m [96m                                                   ~~~~~~~~~~~~~~~~[0m
+    'CardToolbar' was imported here.
+
+[96msrc/components/line-chart-1.tsx[0m:[93m116[0m:[93m25[0m - [91merror[0m[90m TS2322: [0mType '"dim"' is not assignable to type '"link" | "default" | "destructive" | "outline" | "secondary" | "ghost" | null | undefined'.
+
+[7m116[0m                 <Button variant="dim" size="sm" mode="icon" className="-me-1.5">
+[7m   [0m [91m                        ~~~~~~~[0m
+
+  [96msrc/components/ui/button.tsx[0m:[93m11[0m:[93m7[0m
+    [7m 11[0m       variant: {
+    [7m   [0m [96m      ~~~~~~~~~~[0m
+    [7m 12[0m         default: "bg-primary text-primary-foreground hover:bg-primary/90",
+    [7m   [0m [96m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    [7m...[0m 
+    [7m 20[0m         link: "text-primary underline-offset-4 hover:underline",
+    [7m   [0m [96m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    [7m 21[0m       },
+    [7m   [0m [96m~~~~~~~[0m
+    The expected type comes from property 'variant' which is declared here on type 'IntrinsicAttributes & ButtonProps & RefAttributes<HTMLButtonElement>'
+
+[96msrc/components/line-chart-1.tsx[0m:[93m144[0m:[93m13[0m - [91merror[0m[90m TS1361: [0m'CardToolbar' cannot be used as a value because it was imported using 'import type'.
+
+[7m144[0m           </CardToolbar>
+[7m   [0m [91m            ~~~~~~~~~~~[0m
+
+  [96msrc/components/line-chart-1.tsx[0m:[93m6[0m:[93m52[0m
+    [7m6[0m import { Card, CardContent, CardHeader, CardTitle, type CardToolbar } from '@/components/ui/card';
+    [7m [0m [96m                                                   ~~~~~~~~~~~~~~~~[0m
+    'CardToolbar' was imported here.
+
+[96msrc/components/ui/kibo-ui/kanban/index.tsx[0m:[93m9[0m:[93m8[0m - [91merror[0m[90m TS2307: [0mCannot find module '@dnd-kit/core' or its corresponding type declarations.
+
+[7m9[0m } from "@dnd-kit/core";
+[7m [0m [91m       ~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/ui/kibo-ui/kanban/index.tsx[0m:[93m20[0m:[93m8[0m - [91merror[0m[90m TS2307: [0mCannot find module '@dnd-kit/core' or its corresponding type declarations.
+
+[7m20[0m } from "@dnd-kit/core";
+[7m  [0m [91m       ~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/ui/kibo-ui/kanban/index.tsx[0m:[93m21[0m:[93m57[0m - [91merror[0m[90m TS2307: [0mCannot find module '@dnd-kit/sortable' or its corresponding type declarations.
+
+[7m21[0m import { arrayMove, SortableContext, useSortable } from "@dnd-kit/sortable";
+[7m  [0m [91m                                                        ~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/ui/kibo-ui/kanban/index.tsx[0m:[93m22[0m:[93m21[0m - [91merror[0m[90m TS2307: [0mCannot find module '@dnd-kit/utilities' or its corresponding type declarations.
+
+[7m22[0m import { CSS } from "@dnd-kit/utilities";
+[7m  [0m [91m                    ~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/ui/kibo-ui/kanban/index.tsx[0m:[93m38[0m:[93m35[0m - [91merror[0m[90m TS2307: [0mCannot find module '@dnd-kit/core' or its corresponding type declarations.
+
+[7m38[0m export type { DragEndEvent } from "@dnd-kit/core";
+[7m  [0m [91m                                  ~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/ui/kibo-ui/kanban/index.tsx[0m:[93m285[0m:[93m19[0m - [91merror[0m[90m TS7031: [0mBinding element 'active' implicitly has an 'any' type.
+
+[7m285[0m     onDragStart({ active }) {
+[7m   [0m [91m                  ~~~~~~[0m
+
+[96msrc/components/ui/kibo-ui/kanban/index.tsx[0m:[93m290[0m:[93m18[0m - [91merror[0m[90m TS7031: [0mBinding element 'active' implicitly has an 'any' type.
+
+[7m290[0m     onDragOver({ active, over }) {
+[7m   [0m [91m                 ~~~~~~[0m
+
+[96msrc/components/ui/kibo-ui/kanban/index.tsx[0m:[93m290[0m:[93m26[0m - [91merror[0m[90m TS7031: [0mBinding element 'over' implicitly has an 'any' type.
+
+[7m290[0m     onDragOver({ active, over }) {
+[7m   [0m [91m                         ~~~~[0m
+
+[96msrc/components/ui/kibo-ui/kanban/index.tsx[0m:[93m296[0m:[93m17[0m - [91merror[0m[90m TS7031: [0mBinding element 'active' implicitly has an 'any' type.
+
+[7m296[0m     onDragEnd({ active, over }) {
+[7m   [0m [91m                ~~~~~~[0m
+
+[96msrc/components/ui/kibo-ui/kanban/index.tsx[0m:[93m296[0m:[93m25[0m - [91merror[0m[90m TS7031: [0mBinding element 'over' implicitly has an 'any' type.
+
+[7m296[0m     onDragEnd({ active, over }) {
+[7m   [0m [91m                        ~~~~[0m
+
+[96msrc/components/ui/kibo-ui/kanban/index.tsx[0m:[93m302[0m:[93m20[0m - [91merror[0m[90m TS7031: [0mBinding element 'active' implicitly has an 'any' type.
+
+[7m302[0m     onDragCancel({ active }) {
+[7m   [0m [91m                   ~~~~~~[0m
+
+
+Found 17 errors in 2 files.
+
+Errors  Files
+     6  src/components/line-chart-1.tsx[90m:3[0m
+    11  src/components/ui/kibo-ui/kanban/index.tsx[90m:9[0m
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 2.[39m

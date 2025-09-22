@@ -1,0 +1,15 @@
+
+> @jungle-gaming/auth-service@1.0.0 type-check
+> tsc --noEmit
+
+src/auth/auth.controller.ts(44,5): error TS2739: Type '{ id: string; email: string; username: string; createdAt: Date; updatedAt: Date; }' is missing the following properties from type 'Omit<User, "password">': hashPassword, toJSON
+src/auth/auth.service.spec.ts(3,37): error TS2307: Cannot find module '@nestjs/testing' or its corresponding type declarations.
+src/test/setup.ts(9,1): error TS2304: Cannot find name 'beforeEach'.
+src/users/users.service.spec.ts(2,37): error TS2307: Cannot find module '@nestjs/testing' or its corresponding type declarations.
+npm error Lifecycle script `type-check` failed with error:
+npm error code 2
+npm error path /home/manuel/www/test-jungle-gaming/apps/auth-service
+npm error workspace @jungle-gaming/auth-service@1.0.0
+npm error location /home/manuel/www/test-jungle-gaming/apps/auth-service
+npm error command failed
+npm error command sh -c tsc --noEmit
