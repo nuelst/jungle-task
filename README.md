@@ -662,17 +662,6 @@ Para dúvidas, problemas ou feedback sobre o projeto:
 - **🐛 Issues**: Use o sistema de issues do repositório
 - **💬 Discussões**: Use as discussões do repositório
 
-## 🕒 Cronograma de Desenvolvimento
-
-| Fase | Tempo | Descrição |
-|------|-------|-----------|
-| **🏗️ Setup e Estrutura** | 2h | Monorepo, Docker, configurações |
-| **🔧 Backend (Microserviços)** | 8h | NestJS, TypeORM, RabbitMQ, JWT |
-| **⚛️ Frontend** | 6h | React, TanStack Router, shadcn/ui |
-| **🔌 Integração** | 2h | WebSocket, APIs, testes |
-| **📖 Documentação** | 1h | README, Swagger, comentários |
-
-
 <div align="center">
 
 **🚀 Desenvolvido com ❤️ para Jungle Gaming**
