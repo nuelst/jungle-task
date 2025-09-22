@@ -1,4 +1,4 @@
-# 🎯 Sistema de Gestão de Tarefas Colaborativo - Jungle Gaming
+# 🎯 Sistema de Gestão de Tarefas Colaborativo - [Jungle Gaming](https://www.junglegaming.io/)
 
 [![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)](https://nestjs.com/)
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
@@ -166,8 +166,8 @@ Certifique-se de ter os seguintes softwares instalados:
 
 ```bash
 # 1. Clone o repositório
-git clone <repository-url>
-cd test-jungle-gaming
+git clone https://github.com/nuelst/jungle-task.git
+cd jungle-task
 
 # 2. Instale as dependências
 pnpm install
@@ -632,10 +632,6 @@ pnpm --filter auth-service run test
 - ✅ **Rate limiting** configurável
 - ✅ **Validação robusta** com Zod e class-validator
 
-### 📊 Pontuação do Teste
-
-**Nota: 10/10** - Projeto de excelência que demonstra domínio completo das tecnologias, boas práticas de desenvolvimento e implementação de testes robustos.
-
 ## 🚧 Melhorias Futuras
 
 ### 🔧 Técnicas
@@ -659,7 +655,9 @@ pnpm --filter auth-service run test
 
 Para dúvidas, problemas ou feedback sobre o projeto:
 
-- **📧 Email**: recruitment@junglegaming.io
+- **📧 Email**: manuelds@outlook.pt
+- **👨‍💻 GitHub**: [@nuelst](https://github.com/nuelst)
+- **🌐 Jungle Gaming**: [https://www.junglegaming.io/](https://www.junglegaming.io/)
 - **📚 Documentação**: http://localhost:3001/api/docs
 - **🐛 Issues**: Use o sistema de issues do repositório
 - **💬 Discussões**: Use as discussões do repositório
@@ -674,13 +672,6 @@ Para dúvidas, problemas ou feedback sobre o projeto:
 | **🔌 Integração** | 2h | WebSocket, APIs, testes |
 | **📖 Documentação** | 1h | README, Swagger, comentários |
 
-**⏱️ Total**: ~19 horas de desenvolvimento
-
-## 🏆 Conclusão
-
-Este projeto demonstra uma implementação completa e profissional de um sistema de gestão de tarefas colaborativo, seguindo todas as especificações do teste técnico da Jungle Gaming. A arquitetura de microserviços, o frontend moderno e as funcionalidades implementadas mostram domínio das tecnologias solicitadas e boas práticas de desenvolvimento.
-
----
 
 <div align="center">
 

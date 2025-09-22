@@ -106,4 +106,6 @@ temp/
 
 # OS generated files
 Thumbs.db
-
+.turbo/
+.turbo/daemon/
+.turbo
